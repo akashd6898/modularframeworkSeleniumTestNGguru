@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/AKASH/IdeaProjects/ModularFramework">
+        <parameter name="username" value="mngr576532"></parameter>
+        <parameter name="password" value="zaqEsyj"></parameter>
+        <classes><class name="com.guru99.tests.LoginTests">
+            <methods>
+                <include name="verifyUserLoginWithCorrectCredentials"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+</suite>
